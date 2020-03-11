@@ -17,10 +17,10 @@ Sky Identification SDK
 - [Quick Start](#quick-start)
   - [Sky Document Analysis](#Sky-Document-Analysis)
   - [Sky Face Analysis](#Sky-Face-Analysis)
-- [SDK's Dependencies](#sdks-dependencies)
-- [SDK's Requirements](#sdks-requirements)
-  - [SDK's required permissions](#sdks-required-permissions)
-  - [SDK's required configs](#sdks-required-configs)
+- [SkyID's Dependencies](#sdks-dependencies)
+- [SkyID's Requirements](#sdks-requirements)
+  - [SkyID's required permissions](#sdks-required-permissions)
+  - [SkyID's required configs](#sdks-required-configs)
 - [Help](#help)
 
 ## Prerequisite
@@ -128,7 +128,7 @@ FaceAuthenticationResult: “1” or “0”
 SelfieFile: “/path/path/SelfieFile.jpg”
 </pre>
 
-## SDK's Dependencies 
+## SkyID's Dependencies 
 
 In order to avoid any error that can arise from the conflict between the SDK dependencies and the ones of the APK, you should add the following dependencies to your app's build.gradle file:
 
@@ -140,9 +140,9 @@ implementation 'org.apache.httpcomponents:httpclient-android:4.3.5'
 implementation 'com.android.volley:volley:1.1.0'
 </pre>
 
-## SDK's Requirements
+## SkyID's Requirements
 
-#### SDK's required permissions 
+#### SkyID's required permissions 
 
 To ensure normal functioning of the SDK, make sure to ask the application users to grant the application the required permissions before calling the SDK activities. The three required permissions are :
 
@@ -153,7 +153,7 @@ To ensure normal functioning of the SDK, make sure to ask the application users 
 &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /&gt;
 </pre>
 
-#### SDK's required Configs
+#### SkyID's required Configs
 
 In order to minimize the size of the SDK, the current release supports only the "armeabi-v7a" CPU architecture which is the most widely supported ABI on Android (About 90+% of all phones made in the last years supports this). Hence, in order to enshure normal functioning of the SDK together with your application, you should mention to gradle to build and package your APK using only the "armeabi-v7a" architecture:
 
