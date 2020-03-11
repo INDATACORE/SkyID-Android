@@ -2,6 +2,10 @@
   <img src="SkyIDDemo/src/main/res/drawable/readme/skyid_readme.png"/>
 </p>
 
+<div class="text-orange mb-2">
+  .text-orange on white
+</div>
+
  Sky Identification is a KYC (Know Your Customer) solution based on artificial intelligence and machine learning to identify your prospects or your customers on digital channels.
 
  The Sky Identification SDK enables your app to ocerize identity-documents and verify users identities using biometrics based solutions. 
