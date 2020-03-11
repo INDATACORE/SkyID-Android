@@ -5,8 +5,7 @@
  Sky Identification is a KYC (Know Your Customer) solution based on artificial intelligence and machine learning to identify your prospects or your customers on digital channels.
 
  The Sky Identification SDK enables your app to ocerize identity-documents and verify users identities using biometrics based solutions. 
-
-
+ 
 # <span style="color:#FF9C00">Table Of Content</span>
 
 - [Prerequisite](#prerequisite)
@@ -19,12 +18,11 @@
   - [SkyID's Required Configurations](#sdks-required-configs)
 - [Help](#help)
 
-## <span style="color:#FF9C00">Prerequisite</span> 
+## <span style="color:#FF9C00">Prerequisite</span>
 
 SkyID needs a licence key to work. You can request a free trial licence key by contacting as at 'contact@indatacore.com'. 
 
 Once you have the license key, follow the instructions below for a successful integration of SkyID inside your Android application.
-
 
 ## <span style="color:#FF9C00">Quick Start</span>  
 
