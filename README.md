@@ -34,7 +34,7 @@ Once you have the license key, follow the instructions below for a successful in
 
 The Sky Identification SDK is composed of two main components : 
 - **Sky Document Analysis Component:** ocerize the identity-documents  and automatically extract personal information
-- **the Sky Face Recognition Component:**  verify the liveness and the identity of the person holding the identity-document. 
+- **Sky Face Recognition Component:**  verify the liveness and the identity of the person holding the identity-document. 
 
 #### Sky Document Analysis 
 
