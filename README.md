@@ -17,10 +17,10 @@ Sky Identification SDK
 - [Quick Start](#quick-start)
   - [Sky Document Analysis](#Sky-Document-Analysis)
   - [Sky Face Analysis](#Sky-Face-Analysis)
-- [SDK's Dependencies](#SDK's-Dependencies)
-- [SDK's Requirements](#SDK's-Requirements)
-  - [SDK's required permissions](#SDK's-required-permissions)
-  - [SDK's required configs](#SDK's-required-configs)
+- [SDK's Dependencies](#sdks-dependencies)
+- [SDK's Requirements](#sdks-requirements)
+  - [SDK's required permissions](#sdks-required-permissions)
+  - [SDK's required configs](#sdks-required-configs)
 - [Help](#help)
 
 ## Prerequisite
@@ -33,8 +33,10 @@ Once you have the license key, follow the instructions below for a successful in
 ## Quick Start
 
 The Sky Identification SDK is composed of two main components : 
-1. **Sky Document Analysis** component that ocerize the identity-documents  and automatically extract personal information
-2. **the Sky Face Recognition** component that verify the liveness and the identity of the person holding the identity-document. 
+- **Sky Document Analysis Component:** ocerize the identity-documents  and automatically extract personal information
+- **the Sky Face Recognition Component:**  verify the liveness and the identity of the person holding the identity-document. 
+
+#### Sky Document Analysis 
 
 The Sky Document Analysis component can be used simply by calling the DocumentAnalyzer activity throughout a StartActivityForResult() method, see the following code: 
 
@@ -79,7 +81,9 @@ RequestedInformations: {"cin_id":"xxx", "father_name":"xxx","mother_name":"xxx",
 RequestedFiles: {"DocumentFrontSideFile":"xxx", "DocumentBackSideFile":"xxx","FaceFile":"xxx"}
 </pre>
 
-   Similarly, the Sky Face Recognition component can be used simply by calling the FacebasedAuthenticator activity throughout a StartActivityForResult() method, see the following code : 
+#### Sky Face Analysis 
+
+   Similarly to Sky Document Analysis, the Sky Face Recognition component can be used simply by calling the FacebasedAuthenticator activity throughout a StartActivityForResult() method, see the following code : 
 
 ```java
 import com.indatacore.SkyAnalytics.SkyIdentification.FacebasedAuthenticator;
