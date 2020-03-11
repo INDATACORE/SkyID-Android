@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center">
+    <ImageView
+        android:id="@+id/imageView_logo_indatacore"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center|top"
+        app:srcCompat="@drawable/indatacore" />
+
+    <ImageView
+        android:id="@+id/imageView_sky_identification"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center|top"
+        app:srcCompat="@drawable/sky_identification" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_DocOcerization"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="center"
+            android:onClick="launchDocOcerizationActivity"
+            android:text="Document Analysis"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:id="@+id/textView_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    </LinearLayout>
+</LinearLayout>
