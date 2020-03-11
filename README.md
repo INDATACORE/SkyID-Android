@@ -1,5 +1,7 @@
-![Sky Identification SDK](SkyIDDemo/src/main/res/drawable/skyid_readme.png)
 
+<p align="center">
+![Sky Identification SDK](SkyIDDemo/src/main/res/drawable/readme/skyid_readme.png)
+</p>
 
 Sky Identification SDK 
 ==========
@@ -9,7 +11,26 @@ Sky Identification SDK
  The Sky Identification SDK enables your app to ocerize identity-documents and verify users identities using biometrics based solutions. 
 
 
-### Usage
+# Table Of Content
+
+- [Prerequisite](#prerequisite)
+- [Quick Start](#quick-start)
+  - [Sky Document Analysis](#Sky-Document-Analysis)
+  - [Sky Face Analysis](#Sky-Face-Analysis)
+- [SDK's Dependencies](#SDK's-Dependencies)
+- [SDK's Requirements](#SDK's-Requirements)
+  - [SDK's required permissions](#SDK's-required-permissions)
+  - [SDK's required configs](#SDK's-required-configs)
+- [Help](#help)
+
+## Prerequisite
+
+SkyID needs a licence key to work. You can request a free trial licence key by contacting as at 'contact@indatacore.com'. 
+
+Once you have the license key, follow the instructions below for a successful integration of SkyID inside your Android application.
+
+
+## Quick Start
 
 The Sky Identification SDK is composed of two main components : 
 1. **Sky Document Analysis** component that ocerize the identity-documents  and automatically extract personal information
@@ -103,7 +124,7 @@ FaceAuthenticationResult: “1” or “0”
 SelfieFile: “/path/path/SelfieFile.jpg”
 </pre>
 
-### SDK's dependencies 
+## SDK's Dependencies 
 
 In order to avoid any error that can arise from the conflict between the SDK dependencies and the ones of the APK, you should add the following dependencies to your app's build.gradle file:
 
@@ -115,7 +136,9 @@ implementation 'org.apache.httpcomponents:httpclient-android:4.3.5'
 implementation 'com.android.volley:volley:1.1.0'
 </pre>
 
-### SDK's required permissions 
+## SDK's Requirements
+
+#### SDK's required permissions 
 
 To ensure normal functioning of the SDK, make sure to ask the application users to grant the application the required permissions before calling the SDK activities. The three required permissions are :
 
@@ -126,7 +149,7 @@ To ensure normal functioning of the SDK, make sure to ask the application users 
 &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /&gt;
 </pre>
 
-### SDK's required Configs
+#### SDK's required Configs
 
 In order to minimize the size of the SDK, the current release supports only the "armeabi-v7a" CPU architecture which is the most widely supported ABI on Android (About 90+% of all phones made in the last years supports this). Hence, in order to enshure normal functioning of the SDK together with your application, you should mention to gradle to build and package your APK using only the "armeabi-v7a" architecture:
 
@@ -138,5 +161,11 @@ android {
             abiFilters "armeabi-v7a"
         }
     }
-    
+}
+
 </pre>
+
+
+## Help
+
+If you have more any queries/questions feel free to contact us at 'contact@indatacore.com'.
