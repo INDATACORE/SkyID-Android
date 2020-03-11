@@ -2,15 +2,12 @@
   <img src="SkyIDDemo/src/main/res/drawable/readme/skyid_readme.png"/>
 </p>
 
-Sky Identification SDK 
-==========
-
  Sky Identification is a KYC (Know Your Customer) solution based on artificial intelligence and machine learning to identify your prospects or your customers on digital channels.
 
  The Sky Identification SDK enables your app to ocerize identity-documents and verify users identities using biometrics based solutions. 
 
 
-# Table Of Content
+# <span style="color:#FF9C00">Table Of Content</span>
 
 - [Prerequisite](#prerequisite)
 - [Quick Start](#quick-start)
@@ -18,24 +15,24 @@ Sky Identification SDK
   - [Sky Face Analysis](#Sky-Face-Analysis)
 - [SkyID's Dependencies](#sdks-dependencies)
 - [SkyID's Requirements](#sdks-requirements)
-  - [SkyID's required permissions](#sdks-required-permissions)
-  - [SkyID's required configs](#sdks-required-configs)
+  - [SkyID's Required Permissions](#sdks-required-permissions)
+  - [SkyID's Required Configurations](#sdks-required-configs)
 - [Help](#help)
 
-## Prerequisite
+## <span style="color:#FF9C00">Prerequisite</span> 
 
 SkyID needs a licence key to work. You can request a free trial licence key by contacting as at 'contact@indatacore.com'. 
 
 Once you have the license key, follow the instructions below for a successful integration of SkyID inside your Android application.
 
 
-## Quick Start
+## <span style="color:#FF9C00">Quick Start</span>  
 
 The Sky Identification SDK is composed of two main components : 
 - **Sky Document Analysis Component:** ocerize the identity-documents  and automatically extract personal information
 - **Sky Face Recognition Component:**  verify the liveness and the identity of the person holding the identity-document. 
 
-#### Sky Document Analysis 
+#### <span style="color:#FF9C00">Sky Document Analysis</span>   
 
 The Sky Document Analysis component can be used simply by calling the DocumentAnalyzer activity throughout a StartActivityForResult() method, see the following code: 
 
@@ -80,7 +77,7 @@ RequestedInformations: {"cin_id":"xxx", "father_name":"xxx","mother_name":"xxx",
 RequestedFiles: {"DocumentFrontSideFile":"xxx", "DocumentBackSideFile":"xxx","FaceFile":"xxx"}
 </pre>
 
-#### Sky Face Analysis 
+#### <span style="color:#FF9C00">Sky Face Analysis</span>   
 
    Similarly to Sky Document Analysis, the Sky Face Recognition component can be used simply by calling the FacebasedAuthenticator activity throughout a StartActivityForResult() method, see the following code : 
 
@@ -127,7 +124,7 @@ FaceAuthenticationResult: “1” or “0”
 SelfieFile: “/path/path/SelfieFile.jpg”
 </pre>
 
-## SkyID's Dependencies 
+## <span style="color:#FF9C00">SkyID's Dependencies</span> 
 
 In order to avoid any error that can arise from the conflict between the SDK dependencies and the ones of the APK, you should add the following dependencies to your app's build.gradle file:
 
@@ -139,9 +136,9 @@ implementation 'org.apache.httpcomponents:httpclient-android:4.3.5'
 implementation 'com.android.volley:volley:1.1.0'
 </pre>
 
-## SkyID's Requirements
+## <span style="color:#FF9C00">SkyID's Requirements</span> 
 
-#### SkyID's required permissions 
+#### <span style="color:#FF9C00">SkyID's Required permissions</span> 
 
 To ensure normal functioning of the SDK, make sure to ask the application users to grant the application the required permissions before calling the SDK activities. The three required permissions are :
 
@@ -152,7 +149,7 @@ To ensure normal functioning of the SDK, make sure to ask the application users 
 &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /&gt;
 </pre>
 
-#### SkyID's required Configs
+#### <span style="color:#FF9C00">SkyID's Required Configurations</span>
 
 In order to minimize the size of the SDK, the current release supports only the "armeabi-v7a" CPU architecture which is the most widely supported ABI on Android (About 90+% of all phones made in the last years supports this). Hence, in order to enshure normal functioning of the SDK together with your application, you should mention to gradle to build and package your APK using only the "armeabi-v7a" architecture:
 
@@ -169,6 +166,6 @@ android {
 </pre>
 
 
-## Help
+## <span style="color:#FF9C00">Help</span> 
 
 If you have more any queries/questions feel free to contact us at 'contact@indatacore.com'.
