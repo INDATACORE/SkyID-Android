@@ -1,3 +1,6 @@
+![Sky Identification SDK](SkyIDDemo/src/main/res/drawable/skyid_readme.png)
+
+
 Sky Identification SDK 
 ==========
 
