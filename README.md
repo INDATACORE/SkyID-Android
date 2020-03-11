@@ -1,6 +1,5 @@
-
 <p align="center">
-![Sky Identification SDK](SkyIDDemo/src/main/res/drawable/readme/skyid_readme.png)
+  <img src="SkyIDDemo/src/main/res/drawable/readme/skyid_readme.png"/>
 </p>
 
 Sky Identification SDK 
