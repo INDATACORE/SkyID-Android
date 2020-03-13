@@ -175,39 +175,30 @@ If you have encountered undesirable behavior of the SDK, please proceed as follo
 ###### Step 1: Make sure Google Play Services is up to date
 
  1. On your Android phone or tablet, open the Settings app <img src="https://lh3.googleusercontent.com/PzFeiQQaPASuntRuvWiXoqZjQqUj0s0q0w_jI4Nx9vL6x7rGmmS9f-xQr1Kj9S91WMlm=h18"/>.
- 2. Tap Apps & notifications and then See all apps.
+ 2. Tap Apps & notifications <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> See all apps.
  3. Scroll down and tap Google Play Services.
  4. Scroll down and tap App Details.
  5. Tap Update or Install. If you don’t see these options, follow the steps in Step 2 and Step 3.
 
-###### Step 2: Clear cache & data from Google Play Services
-
- 1. On your Android phone or tablet, open the Settings app Settings.
- 2. Tap Apps & notifications and then See all apps.
- 3. Scroll down and tap Google Play Services.
- 4. Tap Storage and then Clear Cache.
- 5. Tap Manage Space and then Clear all Data.
- 6. Open the Google Play Store Google Play.
- 7. Wait for 5 minutes, then try your download again.
 
 ###### Step 2: Clear cache & data from Google Play Services
 
- 1. On your Android phone or tablet, open the Settings app Settings.
- 2. Tap Apps & notifications and then See all apps.
+ 1. On your Android phone or tablet, open the Settings app <img src="https://lh3.googleusercontent.com/PzFeiQQaPASuntRuvWiXoqZjQqUj0s0q0w_jI4Nx9vL6x7rGmmS9f-xQr1Kj9S91WMlm=h18"/>.
+ 2. Tap Apps & notifications <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> See all apps.
  3. Scroll down and tap Google Play Services.
- 4. Tap Storage and then Clear Cache.
- 5. Tap Manage Space and then Clear all Data.
- 6. Open the Google Play Store Google Play.
+ 4. Tap Storage <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> Clear Cache.
+ 5. Tap Manage Space <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> Clear all Data.
+ 6. Open the Google Play Store <img src="https://lh3.googleusercontent.com/pA0Oo_R7q7rvIY2q8EHo5WD6X3NG110lgtezklJGplOW8CEa5AYZhZ8ohUIRG21oP-fk=w18-h18"/>.
  7. Wait for 5 minutes, then try again.
  
 ###### Step 3: Clear the cache & data of the Play Store
 
- 1. On your Android phone or tablet, open the Settings app Settings.
- 2. Tap Apps & notifications and then See all apps.
+ 1. On your Android phone or tablet, open the Settings app <img src="https://lh3.googleusercontent.com/PzFeiQQaPASuntRuvWiXoqZjQqUj0s0q0w_jI4Nx9vL6x7rGmmS9f-xQr1Kj9S91WMlm=h18"/>.
+ 2. Tap Apps & notifications <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> See all apps.
  3. Scroll down and tap Google Play Services.
- 4. Tap Storage and then Clear Cache.
- 5. Tap Manage Space and then Clear all Data.
- 6. Open the Google Play Store Google Play.
+ 4. Tap Storage <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> Clear Cache.
+ 5. Tap Manage Space <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> Clear all Data.
+ 6. Open the Google Play Store <img src="https://lh3.googleusercontent.com/pA0Oo_R7q7rvIY2q8EHo5WD6X3NG110lgtezklJGplOW8CEa5AYZhZ8ohUIRG21oP-fk=w18-h18"/>.
  7. Wait for 5 minutes, then try your download again.
  
 ## <span style="color:#FF9C00">Help</span> 
