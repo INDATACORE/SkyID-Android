@@ -172,23 +172,12 @@ android {
 
 If you have encountered undesirable behavior of the SDK, please proceed as follows:
 
-###### Step 1: Make sure Google Play Services is up to date
-
- 1. On your Android phone or tablet, open the Settings app <img src="https://lh3.googleusercontent.com/PzFeiQQaPASuntRuvWiXoqZjQqUj0s0q0w_jI4Nx9vL6x7rGmmS9f-xQr1Kj9S91WMlm=h18"/>.
- 2. Tap **Apps & notifications** <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> **See all apps**.
- 3. Scroll down and tap **Google Play Services**.
- 4. Scroll down and tap **App Details**.
- 5. Tap **Update** or **Install**. If you don’t see these options, follow the steps in Step 2.
- 6. Restart you device.
- 7. Wait for 5-10 minutes(depends on your internet connection), then try again
-
-###### Step 2: Clear cache & data from Google Play Services
-
  1. On your Android phone or tablet, open the Settings app <img src="https://lh3.googleusercontent.com/PzFeiQQaPASuntRuvWiXoqZjQqUj0s0q0w_jI4Nx9vL6x7rGmmS9f-xQr1Kj9S91WMlm=h18"/>.
  2. Tap **Apps & notifications** <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> **See all apps**.
  3. Scroll down and tap **Google Play Services**.
  4. Tap **Storage** <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> **Clear Cache**.
  5. Tap **Manage Space** <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> **Clear all Data**.
+ 6. Wait until Google Play Services is updated (If it is not updated) to the latest version 20.xx.xx.
  7. Restart you device.
  8. Wait for 5-10 minutes(depends on your internet connection), then try again.
  
