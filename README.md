@@ -181,7 +181,4 @@ If you have encountered undesirable behavior of the SDK, please proceed as follo
  5. Tap **Manage Space** <img src="https://lh3.googleusercontent.com/QbWcYKta5vh_4-OgUeFmK-JOB0YgLLoGh69P478nE6mKdfpWQniiBabjF7FVoCVXI0g=h18"/> **Clear all Data**.
  8. Wait for 5-10 minutes(depends on your internet connection), then try again.
  9. If the problem persists, please restart your device and try again.
- 
-## <span style="color:#FF9C00">Help</span> 
 
-In case of integration problems, please ensure that you have properly followed the integration instructions. If you are still encountering problems, please contact us at 'contact@indatacore.com'.
